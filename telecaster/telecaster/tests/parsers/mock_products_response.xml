@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<products>
+<product>
+	<id><![CDATA[3962]]></id>
+	<id_category_default><![CDATA[0]]></id_category_default>
+	<id_default_image notFilterable="true"></id_default_image>
+	<manufacturer_name notFilterable="true"><![CDATA[Whitegg]]></manufacturer_name>
+	<quantity notFilterable="true"><![CDATA[0]]></quantity>
+	<ean13></ean13>
+	<delivery_in_stock><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[]]></language></delivery_in_stock>
+	<price><![CDATA[0.000000]]></price>
+	<wholesale_price><![CDATA[0.000000]]></wholesale_price>
+	<additional_shipping_cost><![CDATA[0.000000]]></additional_shipping_cost>
+	<name><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[]]></language></name>
+	<description><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[]]></language></description>
+</product>
+<product>
+	<id><![CDATA[4565]]></id>
+	<id_category_default><![CDATA[0]]></id_category_default>
+	<id_default_image xlink:href="https://cosmohome.gr/api/images/products/4565/16598" notFilterable="true"><![CDATA[16598]]></id_default_image>
+	<manufacturer_name notFilterable="true"><![CDATA[DAS HOME]]></manufacturer_name>
+	<quantity notFilterable="true"><![CDATA[0]]></quantity>
+	<ean13><![CDATA[5204850153960]]></ean13>
+	<delivery_in_stock><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[]]></language></delivery_in_stock>
+	<price><![CDATA[29.900000]]></price>
+	<wholesale_price><![CDATA[0.000000]]></wholesale_price>
+	<additional_shipping_cost><![CDATA[0.000000]]></additional_shipping_cost>
+	<name><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[537 ΤΡΑΠΕΖΟΜΑΝΤΗΛΟ]]></language></name>
+	<description><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[Ντύστε την τραπεζαρία σας με μονόχρωμα βαμβακερά τραπεζομάντηλα.
+ Διατίθεται σε διάσταση 140x240cm.
+ Σύνθεση: 100% Βαμβάκι.]]></language></description>
+</product>
+<product>
+	<id><![CDATA[5302]]></id>
+	<id_category_default><![CDATA[0]]></id_category_default>
+	<id_default_image notFilterable="true"></id_default_image>
+	<manufacturer_name notFilterable="true"><![CDATA[DAS MATTRESS]]></manufacturer_name>
+	<quantity notFilterable="true"><![CDATA[0]]></quantity>
+	<ean13><![CDATA[5204850173463]]></ean13>
+	<delivery_in_stock><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[]]></language></delivery_in_stock>
+	<price><![CDATA[235.000000]]></price>
+	<wholesale_price><![CDATA[0.000000]]></wholesale_price>
+	<additional_shipping_cost><![CDATA[0.000000]]></additional_shipping_cost>
+	<name><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[ΑΝΩΣΤΡΩΜΑ ΥΠΕΡΔΙΠΛΟ DAILY]]></language></name>
+	<description><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[Ανώστρωμα υπέρδιπλο της σειράς Daily.
+ Πάχος: 3cm. 
+Σύνθεση: Ύφασμα πλεκτό, antibacterial, Support Foam, Βάτα ακρυλική.]]></language></description>
+</product>
+<product>
+	<id><![CDATA[5303]]></id>
+	<id_category_default><![CDATA[0]]></id_category_default>
+	<id_default_image notFilterable="true"></id_default_image>
+	<manufacturer_name notFilterable="true"><![CDATA[DAS MATTRESS]]></manufacturer_name>
+	<quantity notFilterable="true"><![CDATA[0]]></quantity>
+	<ean13><![CDATA[5204850173470]]></ean13>
+	<delivery_in_stock><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[]]></language></delivery_in_stock>
+	<price><![CDATA[265.000000]]></price>
+	<wholesale_price><![CDATA[0.000000]]></wholesale_price>
+	<additional_shipping_cost><![CDATA[0.000000]]></additional_shipping_cost>
+	<name><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[ΑΝΩΣΤΡΩΜΑ KING SIZE DAILY]]></language></name>
+	<description><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[Ανώστρωμα king size της σειράς Daily.
+ Πάχος: 3cm. Σύνθεση: Ύφασμα πλεκτό, antibacterial, Support Foam, Βάτα ακρυλική.]]></language></description>
+</product>
+</products>
+</prestashop>

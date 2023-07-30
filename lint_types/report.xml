@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="1" name="mypy" skips="0" tests="1" time="1.389">
+  <testcase classname="mypy" file="mypy" line="1" name="mypy-py3_8-darwin" time="1.389">
+    <failure message="mypy produced messages">telecaster/telecaster/sanitizers/prestashop_backoffice_api_sanitizer.py:1: error: Relative import climbs too many namespaces
+telecaster/telecaster/sanitizers/prestashop_backoffice_api_sanitizer.py:2: error: Relative import climbs too many namespaces
+telecaster/telecaster/sanitizers/prestashop_backoffice_api_sanitizer.py:6: error: Function is missing a type annotation
+telecaster/telecaster/sanitizers/prestashop_backoffice_api_sanitizer.py:43: error: Function is missing a type annotation
+telecaster/telecaster/sanitizers/prestashop_backoffice_api_sanitizer.py:44: error: Call to untyped function "product" in typed context
+telecaster/telecaster/sanitizers/prestashop_backoffice_api_sanitizer.py:47: error: Function is missing a type annotation
+telecaster/telecaster/sanitizers/prestashop_backoffice_api_sanitizer.py:56: error: Function is missing a type annotation
+telecaster/telecaster/sanitizers/prestashop_backoffice_api_sanitizer.py:57: error: Call to untyped function "category" in typed context
+telecaster/telecaster/parsers/parse_xml_to_json.py:1: error: Function is missing a type annotation
+telecaster/telecaster/parsers/parse_xml_to_json.py:5: error: Call to untyped function "parse_xml_to_json" in typed context
+telecaster/telecaster/parsers/parse_xml_to_json.py:12: error: Function is missing a type annotation
+telecaster/telecaster/parsers/parse_xml_to_json.py:17: error: Call to untyped function "parse_prestashop_xml_products" in typed context
+telecaster/telecaster/parsers/cdata_parser.py:1: error: Function is missing a type annotation
+telecaster/telecaster/Clients/BaseClient.py:1: error: Library stubs not installed for "requests" (or incompatible with Python 3.8)
+telecaster/telecaster/Clients/BaseClient.py:1: note: Hint: "python3 -m pip install types-requests"
+telecaster/telecaster/Clients/BaseClient.py:1: note: (or run "mypy --install-types" to install all missing stub packages)
+telecaster/telecaster/Clients/BaseClient.py:1: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+telecaster/telecaster/Clients/BaseClient.py:5: error: Function is missing a type annotation
+telecaster/telecaster/Clients/BaseClient.py:13: error: Function is missing a type annotation
+telecaster/telecaster/Clients/BaseClient.py:16: error: Function is missing a return type annotation
+telecaster/telecaster/Clients/BaseClient.py:16: note: Use "-&gt; None" if function does not return a value
+telecaster/telecaster/Clients/BaseClient.py:19: error: Function is missing a return type annotation
+telecaster/telecaster/Clients/BaseClient.py:19: note: Use "-&gt; None" if function does not return a value
+telecaster/telecaster/Clients/BaseClient.py:22: error: Function is missing a return type annotation
+telecaster/telecaster/Clients/BaseClient.py:22: note: Use "-&gt; None" if function does not return a value
+telecaster/telecaster/settings.py:28: error: Need type annotation for "ALLOWED_HOSTS" (hint: "ALLOWED_HOSTS: List[&lt;type&gt;] = ...")
+telecaster/telecaster/serializers/XmlGeneratorSerializer.py:10: error: Class cannot subclass "Serializer" (has type "Any")
+telecaster/telecaster/serializers/XmlGeneratorSerializer.py:12: error: Function is missing a type annotation
+telecaster/telecaster/serializers/XmlGeneratorSerializer.py:16: error: Function is missing a type annotation
+telecaster/telecaster/serializers/XmlGeneratorSerializer.py:29: error: Function is missing a type annotation
+telecaster/telecaster/serializers/XmlGeneratorSerializer.py:81: error: Call to untyped function "validate_product_for_skroutz" of "XmlGeneratorSerializer" in typed context
+telecaster/telecaster/Clients/PrestaShopClient.py:4: error: Relative import climbs too many namespaces
+telecaster/telecaster/Clients/PrestaShopClient.py:7: error: Class cannot subclass "BaseClient" (has type "Any")
+telecaster/telecaster/Clients/PrestaShopClient.py:8: error: Function is missing a type annotation
+telecaster/telecaster/Clients/PrestaShopClient.py:12: error: Function is missing a type annotation
+telecaster/telecaster/Clients/PrestaShopClient.py:16: error: Function is missing a type annotation
+telecaster/telecaster/Clients/PrestaShopClient.py:21: error: Call to untyped function "build_url" in typed context
+telecaster/telecaster/Clients/PrestaShopClient.py:32: error: Function is missing a type annotation
+telecaster/telecaster/Clients/PrestaShopClient.py:34: error: Call to untyped function "build_url" in typed context
+telecaster/telecaster/views/XmlGeneratorView.py:11: error: Class cannot subclass "APIView" (has type "Any")
+telecaster/telecaster/views/XmlGeneratorView.py:17: error: Function is missing a type annotation for one or more arguments
+telecaster/telecaster/views/XmlGeneratorView.py:21: error: Function is missing a type annotation for one or more arguments
+telecaster/telecaster/views/XmlGeneratorView.py:39: error: Call to untyped function "for_xml" of "XmlGeneratorSerializer" in typed context
+telecaster/telecaster/views/XmlGeneratorView.py:43: error: Returning Any from function declared to return "JsonResponse"
+telecaster/telecaster/tests/conftest.py:8: error: Function is missing a return type annotation
+telecaster/telecaster/tests/conftest.py:13: error: Function is missing a type annotation
+telecaster/telecaster/tests/conftest.py:14: error: Function is missing a type annotation
+telecaster/telecaster/tests/conftest.py:24: error: Function is missing a type annotation
+telecaster/telecaster/tests/conftest.py:25: error: Function is missing a type annotation
+telecaster/telecaster/tests/conftest.py:35: error: Function is missing a return type annotation
+telecaster/telecaster/tests/conftest.py:42: error: Function is missing a type annotation
+telecaster/telecaster/tests/conftest.py:49: error: Function is missing a type annotation
+telecaster/telecaster/tests/parsers/test_presta_shop_parser.py:9: error: Function is missing a return type annotation
+telecaster/telecaster/tests/parsers/test_presta_shop_parser.py:15: error: Function is missing a return type annotation
+telecaster/telecaster/tests/parsers/test_presta_shop_parser.py:20: error: Function is missing a type annotation
+telecaster/telecaster/tests/parsers/test_presta_shop_parser.py:28: error: Function is missing a type annotation</failure>
+  </testcase>
+</testsuite>

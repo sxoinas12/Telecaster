@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<categories>
+<category>
+	<id><![CDATA[1]]></id>
+	<name><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[Root]]></language></name>
+</category>
+<category>
+	<id><![CDATA[2]]></id>
+	<name><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[Αρχική]]></language></name>
+</category>
+<category>
+	<id><![CDATA[8]]></id>
+	<name><language id="2" xlink:href="https://cosmohome.gr/api/languages/2"><![CDATA[Home Accessories]]></language></name>
+</category>
+</categories>
+</prestashop>

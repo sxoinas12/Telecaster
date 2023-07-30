@@ -1,0 +1,46 @@
+env/
+virtualenv/
+venv/
+node_modules/
+__pycache__
+**/__pycache__
+telecaster/__pycache__/
+*.pyc
+.pipcache
+.benchmarks/
+.pytest_cache
+.mypy_cache
+.DS_Store
+.vscode/
+newrelic_agent.log
+/tags
+
+# PyCharm stuff we don't need to keep in our repo.
+.idea/codeStyles/
+.idea/codeStyleSettings.xml
+.idea/dataSources*
+.idea/dataSources/
+.idea/encodings.xml
+.idea/GitScope.xml
+.idea/inspectionProfiles/
+.idea/jsLibraryMappings.xml
+.idea/maple.iml
+.idea/markdown-navigator*
+.idea/misc.xml
+.idea/mypy.xml
+.idea/remote-mappings.xml
+.idea/shelf/
+.idea/tasks.xml
+.idea/workspace.xml
+
+.tags
+.tags1
+stellar.yaml
+
+# Special place for the home directory in the docker containers (see docker-compose.dev.yml).
+*.local*
+# Shell history and other local configuration can be kept here.
+.home
+
+# Configuration file for docker-compose
+.env
